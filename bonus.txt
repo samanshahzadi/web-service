@@ -1,0 +1,14 @@
+1)sometimes requesting data for the keyword takes a long time (> 5 seconds), what can be done to
+make it faster? What are downsides of your solution?
+
+Use small page size to fetch results
+exclude extra columns
+
+Downside::
+Used too much manual nodes of array
+
+
+2) we’d like to add as many product feeds as possible, how would you structure a service with this
+requirement?
+
+I would prefer to go for laravel framework and follow the standards and best practices give
